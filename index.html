@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كوكب المريخ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>مرحبًا بكم في صفحة المريخ</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">مقدمة</a></li>
+                <li><a href="#facts">حقائق</a></li>
+                <li><a href="#exploration">استكشاف</a></li>
+                <li><a href="#gallery">صور</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>مقدمة عن المريخ</h2>
+            <p>المريخ، المعروف أيضًا باسم الكوكب الأحمر، هو الكوكب الرابع في ترتيب النظام الشمسي. يتميز بلونه الأحمر
+                الناتج عن أكسيد الحديد (الصدأ) الذي يغطي سطحه. يعد المريخ واحدًا من أكثر الكواكب دراسة، حيث يعتبره
+                العلماء هدفًا أساسيًا للبحث عن الحياة خارج الأرض.</p>
+            <p>بفضل وجود الأنهار القديمة والبحيرات الجافة التي كانت موجودة في الماضي، يعتقد العلماء أن المريخ قد كان
+                صالحًا للحياة. تضاريسه تشمل البراكين العملاقة، مثل *أوليمبوس مونز*، وأودية كبيرة مثل *فاليس مارينيرس*.
+            </p>
+            <div class="image-container">
+                <img src="images/001.jpg" alt="صورة سطح المريخ" width="20%">
+                <img src="images/0011.jpg" alt="مشهد من الفضاء للمريخ" width="30%">
+                <img src="images/0012.jpg" alt="صورة أخرى للمريخ" width="35%">
+            </div>
+        </section>
+
+        <section id="facts">
+            <h2>حقائق عن المريخ</h2>
+            <table>
+                <tr>
+                    <th>المعلومة</th>
+                    <th colspan="2">القيمة</th>
+                </tr>
+                <tr>
+                    <td>المسافة من الشمس</td>
+                    <td colspan="2">227.9 مليون كم</td>
+                </tr>
+                <tr>
+                    <td>مدة اليوم</td>
+                    <td colspan="2">24 ساعة و37 دقيقة</td>
+                </tr>
+                <tr>
+                    <td>مدة السنة</td>
+                    <td colspan="2">687 يومًا أرضيًا</td>
+                </tr>
+                <tr>
+                    <td>عدد الأقمار</td>
+                    <td colspan="2">2 (فوبوس وديموس)</td>
+                </tr>
+                <tr>
+                    <td>الجاذبية</td>
+                    <td colspan="2">0.38 من جاذبية الأرض</td>
+                </tr>
+                <tr>
+                    <td>درجة الحرارة</td>
+                    <td colspan="2">-63° مئوية (متوسط)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="exploration">
+            <h2>استكشاف المريخ</h2>
+            <p>بدأ استكشاف المريخ منذ الستينيات مع إطلاق المركبات الفضائية الأولى مثل *مارينر 4*. وفي العصر الحديث، لعبت
+                المركبات الجوالة مثل *روفر كيوريوسيتي* و*برسيفيرنس* دورًا كبيرًا في فهم جيولوجيا الكوكب وأجوائه.</p>
+            <p>بالإضافة إلى ذلك، تم إطلاق مهمات حديثة مثل مسبار الأمل الإماراتي لدراسة الغلاف الجوي. تُعتبر هذه البعثات
+                خطوات تمهيدية نحو تحقيق هدف البشرية الطموح بإرسال رواد فضاء إلى المريخ.</p>
+            <div class="image-container">
+                <img src="images/002.jpeg" alt="مركبة فضائية على المريخ" width="50%">
+                <img src="images/0021.jpg" alt="روفر كيوريوسيتي على سطح المريخ" width="50%">
+                <img src="images/0022.jpg" alt="روفر كيوريوسيتي على سطح المريخ" width="50%">
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>معرض الصور</h2>
+            <div class="gallery-grid">
+                <img src="images/003.jpeg" alt="منظر طبيعي للمريخ">
+                <img src="images/0031.jpg" alt="الأقمار المريخية">
+                <img src="images/0032.jpg" alt="رؤية حرارية للمريخ">
+                <img src="images/0033.jpg" alt="مشهد للغبار المريخي">
+            </div>
+        </section>
+
+        <aside>
+            <h3>شارك برأيك</h3>
+            <form>
+                <label for="name">الاسم:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">البريد الإلكتروني:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="comment">تعليقك:</label><br>
+                <textarea id="comment" name="comment" rows="4"></textarea><br><br>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© جميع الحقوق محفوظة 2024 | موقع المريخ التعليمي</p>
+    </footer>
+</body>
+
+</html>
